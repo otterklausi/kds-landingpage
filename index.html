@@ -218,10 +218,7 @@
                 <div class="flex items-center justify-between h-20">
                     <!-- Logo -->
                     <a href="#" class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 flex items-center justify-center">
-                            <span class="font-display font-bold text-white text-lg">KDS</span>
-                        </div>
-                        <span class="font-display font-semibold text-white text-lg hidden sm:block">Keller & Dach</span>
+                        <img src="images/KDS Logo.png" alt="KDS Logo" class="h-12 w-auto">
                     </a>
                     
                     <!-- Desktop Menu -->
@@ -345,11 +342,8 @@
                         <div class="relative">
                             <!-- Main Image Container -->
                             <div class="glass-card p-4 glow">
-                                <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                                    <div class="text-center p-8">
-                                        <i data-lucide="home" class="w-24 h-24 text-brand-400 mx-auto mb-4"></i>
-                                        <p class="text-slate-400">Ihr Zuhause in besten Händen</p>
-                                    </div>
+                                <div class="aspect-[4/3] rounded-2xl overflow-hidden">
+                                    <img src="images/about-team.jpg" alt="KDS Team bei der Arbeit" class="w-full h-full object-cover">
                                 </div>
                             </div>
                             
@@ -428,25 +422,35 @@
                 <!-- Services Grid -->
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Service 1 -->
-                    <div class="service-card glass-card p-8 glow group">
-                        <div class="w-16 h-16 rounded-2xl bg-brand-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <i data-lucide="droplets" class="w-8 h-8 text-brand-400"></i>
+                    <div class="service-card glass-card overflow-hidden glow group relative">
+                        <div class="h-32 overflow-hidden">
+                            <img src="images/service-keller.jpg" alt="Kellerabdichtung" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
-                        <h3 class="font-display text-xl font-semibold text-white mb-3">Kellerabdichtung</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            Dauerhafter Schutz gegen Feuchtigkeit und Wassereinbruch. Professionelle Innen- und Außenabdichtung.
-                        </p>
+                        <div class="p-6">
+                            <div class="w-12 h-12 rounded-xl bg-brand-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <i data-lucide="droplets" class="w-6 h-6 text-brand-400"></i>
+                            </div>
+                            <h3 class="font-display text-lg font-semibold text-white mb-2">Kellerabdichtung</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Dauerhafter Schutz gegen Feuchtigkeit und Wassereinbruch.
+                            </p>
+                        </div>
                     </div>
                     
                     <!-- Service 2 -->
-                    <div class="service-card glass-card p-8 glow group">
-                        <div class="w-16 h-16 rounded-2xl bg-accent-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <i data-lucide="home" class="w-8 h-8 text-accent-400"></i>
+                    <div class="service-card glass-card overflow-hidden glow group relative">
+                        <div class="h-32 overflow-hidden">
+                            <img src="images/service-dach.jpg" alt="Dacharbeiten" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
-                        <h3 class="font-display text-xl font-semibold text-white mb-3">Dacharbeiten</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            Reparatur, Sanierung und Neudeckung. Auch Kaminarbeiten und Dachfenstereinbau.
-                        </p>
+                        <div class="p-6">
+                            <div class="w-12 h-12 rounded-xl bg-accent-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <i data-lucide="home" class="w-6 h-6 text-accent-400"></i>
+                            </div>
+                            <h3 class="font-display text-lg font-semibold text-white mb-2">Dacharbeiten</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Reparatur, Sanierung und Neudeckung.
+                            </p>
+                        </div>
                     </div>
                     
                     <!-- Service 3 -->
@@ -461,14 +465,19 @@
                     </div>
                     
                     <!-- Service 4 -->
-                    <div class="service-card glass-card p-8 glow group">
-                        <div class="w-16 h-16 rounded-2xl bg-purple-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <i data-lucide="paint-bucket" class="w-8 h-8 text-purple-400"></i>
+                    <div class="service-card glass-card overflow-hidden glow group relative">
+                        <div class="h-32 overflow-hidden">
+                            <img src="images/service-fassade.jpg" alt="Malerarbeiten" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
-                        <h3 class="font-display text-xl font-semibold text-white mb-3">Malerarbeiten</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">
-                            Innen- und Außenanstriche, Fassadengestaltung und Renovierungen in höchster Qualität.
-                        </p>
+                        <div class="p-6">
+                            <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <i data-lucide="paint-bucket" class="w-6 h-6 text-purple-400"></i>
+                            </div>
+                            <h3 class="font-display text-lg font-semibold text-white mb-2">Malerarbeiten</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                Fassadengestaltung und Renovierungen in höchster Qualität.
+                            </p>
+                        </div>
                     </div>
                     
                     <!-- Service 5 -->
@@ -582,13 +591,9 @@
                     
                     <!-- Visual -->
                     <div class="relative">
-                        <div class="glass-card p-8 glow">
-                            <div class="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                                <div class="text-center p-8">
-                                    <i data-lucide="award" class="w-32 h-32 text-brand-400 mx-auto mb-6"></i>
-                                    <p class="text-2xl font-display font-bold text-white">Meisterbetrieb</p>
-                                    <p class="text-slate-400 mt-2">Qualität durch Erfahrung</p>
-                                </div>
+                        <div class="glass-card p-4 glow">
+                            <div class="aspect-square rounded-2xl overflow-hidden">
+                                <img src="images/service-fassade.jpg" alt="KDS Fassadenarbeit" class="w-full h-full object-cover">
                             </div>
                         </div>
                         
@@ -633,42 +638,84 @@
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Project 1 -->
                     <div class="work-card group relative overflow-hidden rounded-2xl">
-                        <div class="aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                            <i data-lucide="home" class="w-20 h-20 text-slate-600"></i>
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-1.jpg" alt="Kellerabdichtung Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                             <div class="absolute bottom-0 left-0 right-0 p-6">
                                 <span class="text-accent-400 text-sm font-medium">Kellerabdichtung</span>
-                                <h3 class="font-display text-xl font-semibold text-white mt-1">Mehrfamilienhaus Berlin</h3>
-                                <p class="text-slate-400 text-sm mt-2">Komplette Kellerabdichtung bei einem historischen Gebäude aus den 1920ern.</p>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Kellersanierung</h3>
+                                <p class="text-slate-400 text-sm mt-2">Professionelle Kellerabdichtung und Schutz vor Feuchtigkeit.</p>
                             </div>
                         </div>
                     </div>
                     
                     <!-- Project 2 -->
                     <div class="work-card group relative overflow-hidden rounded-2xl">
-                        <div class="aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                            <i data-lucide="building" class="w-20 h-20 text-slate-600"></i>
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-2.jpg" alt="Dachsanierung Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                             <div class="absolute bottom-0 left-0 right-0 p-6">
                                 <span class="text-accent-400 text-sm font-medium">Dachsanierung</span>
-                                <h3 class="font-display text-xl font-semibold text-white mt-1">Einfamilienhaus München</h3>
-                                <p class="text-slate-400 text-sm mt-2">Komplette Dachsanierung mit neuer Dämmung und Dachfenstern.</p>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Dacharbeiten</h3>
+                                <p class="text-slate-400 text-sm mt-2">Fachgerechte Dachsanierung und Reparatur.</p>
                             </div>
                         </div>
                     </div>
                     
                     <!-- Project 3 -->
                     <div class="work-card group relative overflow-hidden rounded-2xl">
-                        <div class="aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                            <i data-lucide="store" class="w-20 h-20 text-slate-600"></i>
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-3.jpg" alt="Fassadensanierung Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                             <div class="absolute bottom-0 left-0 right-0 p-6">
                                 <span class="text-accent-400 text-sm font-medium">Fassadensanierung</span>
-                                <h3 class="font-display text-xl font-semibold text-white mt-1">Gewerbeobjekt Hamburg</h3>
-                                <p class="text-slate-400 text-sm mt-2">Fassadensanierung und Wärmedämmung eines Bürogebäudes.</p>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Fassadenarbeit</h3>
+                                <p class="text-slate-400 text-sm mt-2">Komplette Fassadensanierung mit Putzarbeiten.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="work-card group relative overflow-hidden rounded-2xl">
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-4.jpg" alt="Baustelle Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute bottom-0 left-0 right-0 p-6">
+                                <span class="text-accent-400 text-sm font-medium">Trockenbau</span>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Innenausbau</h3>
+                                <p class="text-slate-400 text-sm mt-2">Professionelle Trockenbau- und Innenausbauarbeiten.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="work-card group relative overflow-hidden rounded-2xl">
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-5.jpg" alt="Malerarbeiten Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute bottom-0 left-0 right-0 p-6">
+                                <span class="text-accent-400 text-sm font-medium">Malerarbeiten</span>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Gestaltung</h3>
+                                <p class="text-slate-400 text-sm mt-2">Hochwertige Maler- und Gestaltungsarbeiten.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="work-card group relative overflow-hidden rounded-2xl">
+                        <div class="aspect-[4/3]">
+                            <img src="images/project-6.jpg" alt="Sanierung Projekt" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute bottom-0 left-0 right-0 p-6">
+                                <span class="text-accent-400 text-sm font-medium">Komplettsanierung</span>
+                                <h3 class="font-display text-xl font-semibold text-white mt-1">Umbau</h3>
+                                <p class="text-slate-400 text-sm mt-2">Umfassende Sanierung und Modernisierung.</p>
                             </div>
                         </div>
                     </div>
@@ -755,10 +802,7 @@
                     <!-- Brand -->
                     <div class="md:col-span-2">
                         <div class="flex items-center gap-3 mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 flex items-center justify-center">
-                                <span class="font-display font-bold text-white text-xl">KDS</span>
-                            </div>
-                            <span class="font-display font-semibold text-white text-xl">Keller & Dach Spezialisten</span>
+                            <img src="images/KDS Logo.png" alt="KDS Logo" class="h-14 w-auto">
                         </div>
                         <p class="text-slate-400 mb-6 max-w-sm">
                             Ihr zuverlässiger Partner für alle Handwerksarbeiten rund ums Haus. Qualität, die überzeugt.
