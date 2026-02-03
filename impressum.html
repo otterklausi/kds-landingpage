@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | KDS – Keller & Dach Spezialisten</title>
+    <meta name="description" content="Impressum von KDS – Keller & Dach Spezialisten.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'display': ['Space Grotesk', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #f8fafc; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Space Grotesk', sans-serif; margin: 0; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-white/10">
+        <div class="w-full px-6 lg:px-12">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-amber-500 flex items-center justify-center">
+                        <span class="font-display font-bold text-white text-lg">KDS</span>
+                    </div>
+                    <span class="font-display font-semibold text-white text-lg">Keller & Dach</span>
+                </a>
+                <a href="index.html" class="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    Zurück zur Startseite
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="py-20">
+        <div class="w-full px-6 lg:px-12">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-12">Impressum</h1>
+                
+                <div class="space-y-12">
+                    <!-- Angaben gemäß § 5 TMG -->
+                    <section>
+                        <h2 class="font-display text-2xl font-semibold text-white mb-6">Angaben gemäß § 5 TMG</h2>
+                        <div class="bg-slate-800/50 border border-white/10 rounded-2xl p-8 space-y-4">
+                            <p class="text-lg font-semibold text-white">KDS – Keller & Dach Spezialisten</p>
+                            <p class="text-slate-400">Musterstraße 123<br>12345 Musterstadt<br>Deutschland</p>
+                            
+                            <div class="pt-4 border-t border-white/10">
+                                <p class="text-slate-400"><span class="text-white">Vertreten durch:</span><br>Geschäftsführer: Max Mustermann</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Kontakt -->
+                    <section>
+                        <h2 class="font-display text-2xl font-semibold text-white mb-6">Kontakt</h2>
+                        <div class="bg-slate-800/50 border border-white/10 rounded-2xl p-8 space-y-4">
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
+                                    <i data-lucide="phone" class="w-5 h-5 text-blue-400"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-slate-400">Telefon</p>
+                                    <p class="text-white">+49 123 456 7890</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
+                                    <i data-lucide="mail" class="w-5 h-5 text-blue-400"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-slate-400">E-Mail</p>
+                                    <p class="text-white">info@kds-handwerk.de</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Umsatzsteuer -->
+                    <section>
+                        <h2 class="font-display text-2xl font-semibold text-white mb-6">Umsatzsteuer-ID</h2>
+                        <div class="bg-slate-800/50 border border-white/10 rounded-2xl p-8">
+                            <p class="text-slate-400">Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
+                            <p class="text-white mt-2 font-mono">DE 123 456 789</p>
+                        </div>
+                    </section>
+
+                    <!-- Berufshaftpflicht -->
+                    <section>
+                        <h2 class="font-display text-2xl font-semibold text-white mb-6">Berufshaftpflichtversicherung</h2>
+                        <div class="bg-slate-800/50 border border-white/10 rounded-2xl p-8 space-y-4">
+                            <p class="text-white font-semibold">Muster Versicherung AG</p>
+                            <p class="text-slate-400">Versicherungsstraße 1<br>12345 Versicherungsstadt</p>
+                            <p class="text-slate-400 mt-4">Räumlicher Geltungsbereich: Deutschland</p>
+                        </div>
+                    </section>
+
+                    <!-- Streitschlichtung -->
+                    <section>
+                        <h2 class="font-display text-2xl font-semibold text-white mb-6">Streitschlichtung</h2>
+                        <div class="bg-slate-800/50 border border-white/10 rounded-2xl p-8 space-y-4">
+                            <p class="text-slate-400">Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:</p>
+                            <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener" class="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-2">
+                                https://ec.europa.eu/consumers/odr
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </a>
+                            <p class="text-slate-400 mt-4">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10">
+        <div class="w-full px-6 lg:px-12">
+            <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-slate-500 text-sm">© 2024 KDS – Keller & Dach Spezialisten</p>
+                <div class="flex gap-6">
+                    <a href="index.html" class="text-slate-400 hover:text-white transition-colors text-sm">Startseite</a>
+                    <a href="datenschutz.html" class="text-slate-400 hover:text-white transition-colors text-sm">Datenschutz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
